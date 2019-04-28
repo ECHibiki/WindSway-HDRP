@@ -345,6 +345,9 @@
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>S:/GitProjects/Verniy/WindSway-HDRP/Library/PackageCache/com.unity.render-pipelines.high-definition@4.10.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>S:/GitProjects/Verniy/WindSway-HDRP/Assets/ShaderGraph_ExampleLibrary-master/ShaderGraph_ExampleLibrary_Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
  </Reference>

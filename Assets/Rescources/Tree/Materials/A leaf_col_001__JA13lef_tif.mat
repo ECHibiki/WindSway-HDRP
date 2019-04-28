@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: A leaf_col_001__JA13lef_tif
-  m_Shader: {fileID: 4800000, guid: 06f10a8fb59299d4b8e619af8a94d671, type: 3}
+  m_Shader: {fileID: 4800000, guid: cb603df796e153a418fae4b219fbf449, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING
     _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0
     _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
@@ -21,12 +21,15 @@ Material:
     MotionVector: User
   disabledShaderPasses:
   - DistortionVectors
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
   - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_8A843E58:
-        m_Texture: {fileID: 2800000, guid: 413d618153f6f774ea230471f95daef7, type: 3}
+        m_Texture: {fileID: 2800000, guid: d709fa02e50359848a68197a22be2a23, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A929C3ED:
@@ -170,7 +173,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 97c77c1e2967f0c44b284ba4f6c39fcb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -295,6 +298,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_4010D669: 0.2
+    - Vector1_43F85217: -7.63
+    - Vector1_65D86142: 0
     - Vector1_7B2C9193: 0
     - Vector1_98BCE639: 0.1
     - _AORemapMax: 1
@@ -545,6 +550,8 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Vector2_C03A13C6: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector3_E6D556DD: {r: 0.5, g: 0.1, b: 0.1, a: -20.78}
+    - Vector4_49B72427: {r: 0.5, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
@@ -552,10 +559,10 @@ Material:
     - _BaseColor3: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap0_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0.049439307, g: 0.103773594, b: 0.05270786, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/GrassSway.unity
+- path: S:/GitProjects/Verniy/HGame3/Assets/Scenes/GrassSway.unity
   isLoaded: 1
   isActive: 1

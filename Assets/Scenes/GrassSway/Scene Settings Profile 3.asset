@@ -55,7 +55,7 @@ MonoBehaviour:
   active: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 50.1
+    m_Value: 84
     min: 0
   cascadeShadowSplitCount:
     m_OverrideState: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   rotation:
     m_OverrideState: 1
     m_Value: 0
@@ -116,10 +116,10 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: 3.85
   multiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.08
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
     max: 10
   atmosphereThickness:
     m_OverrideState: 1
-    m_Value: 1.36
+    m_Value: 1.34
     min: 0
     max: 5
   skyTint:
@@ -316,7 +316,7 @@ MonoBehaviour:
     showEyeDropper: 1
   density:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.154
     min: 0
     max: 1
   maxFogDistance:
@@ -334,7 +334,7 @@ MonoBehaviour:
     min: 0
   mipFogFar:
     m_OverrideState: 1
-    m_Value: 999.72
+    m_Value: 997.81
     min: 0
   fogDistance:
     m_OverrideState: 1
@@ -342,7 +342,7 @@ MonoBehaviour:
     min: 0
   fogBaseHeight:
     m_OverrideState: 1
-    m_Value: 46.5
+    m_Value: 44.61
   fogHeightAttenuation:
     m_OverrideState: 1
     m_Value: 1
@@ -437,9 +437,9 @@ MonoBehaviour:
   active: 1
   indirectSpecularIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.13
     min: 0
   indirectDiffuseIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.02
     min: 0
